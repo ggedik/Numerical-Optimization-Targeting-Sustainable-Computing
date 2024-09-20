@@ -1,0 +1,1 @@
+This folder contains the scripts used for experiments with verificarlo. Finding minimal precision for code regions, doing MCA analysis. 
