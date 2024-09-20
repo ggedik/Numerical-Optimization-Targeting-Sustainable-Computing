@@ -1,0 +1,101 @@
+reactor_simulator.cpp/cross/sin/423/179	1	0	0	1	52	11	23	8	1	1	452205
+input:	parameter_1	1	52	11	0	211
+output:	return_value	1	52	11	-1	1
+reactor_simulator.cpp/scatter/_Z13r8_uniform_01Ri/949/52	0	0	0	1	52	11	23	8	0	1	352205
+output:	return_value	1	52	11	0	1
+reactor_simulator.cpp/energy/sqrt/558/197	1	0	0	1	52	11	23	8	1	1	100000
+input:	parameter_1	1	52	11	0	1
+output:	return_value	1	52	11	0	1
+reactor_simulator.cpp/dist2c/_Z13r8_uniform_01Ri/488/28	0	0	0	1	52	11	23	8	0	1	452205
+output:	return_value	1	52	11	0	1
+reactor_simulator.cpp/cross/exp/422/176	1	0	0	1	52	11	23	8	1	1	452205
+input:	parameter_1	1	52	11	0	3
+output:	return_value	1	52	11	1	13
+reactor_simulator.cpp/cross/_Z6r8_absd/422/180	0	0	0	1	52	11	23	8	1	1	452205
+input:	x	1	52	11	-2	2
+output:	return_value	1	52	11	0	2
+reactor_simulator.cpp/source/_Z13r8_uniform_01Ri/1011/21	0	0	0	1	52	11	23	8	0	1	100000
+output:	return_value	1	52	11	0	1
+reactor_simulator.cpp//main/27/2	0	0	0	1	52	11	23	8	0	0	1
+reactor_simulator.cpp/dist2c/log/490/29	1	0	0	1	52	11	23	8	1	1	452205
+input:	parameter_1	1	52	11	0	1
+output:	return_value	1	52	11	-14	0
+reactor_simulator.cpp/update/sin/1124/40	1	0	0	1	52	11	23	8	1	1	452205
+input:	parameter_1	1	52	11	0	7
+output:	return_value	1	52	11	-1	1
+reactor_simulator.cpp/main/printf/291/255	1	0	0	1	52	11	23	8	1	0	1
+input:	parameter_2	1	52	11	36904	36905
+reactor_simulator.cpp/source/_Z6energyRi/1021/23	0	0	0	1	52	11	23	8	0	1	100000
+output:	return_value	1	52	11	0	3
+reactor_simulator.cpp/main/_Z6sourceRiRdS0_S0_S0_S0_S0_/230/249	0	0	0	1	52	11	23	8	6	6	100000
+input:	e	3	23	8	-2147483648	1
+input:	mu	3	23	8	-2147483648	-2147483648
+input:	azm	3	23	8	-2147483648	1
+input:	x	3	23	8	-2147483648	-2147483648
+input:	y	3	23	8	-2147483648	-2147483648
+input:	z	3	23	8	-2147483648	1
+output:	e	3	23	8	-2147483648	226
+output:	mu	3	23	8	-2147483648	2656
+output:	azm	3	23	8	-2147483648	0
+output:	x	3	23	8	0	0
+output:	y	3	23	8	0	0
+output:	z	3	23	8	0	0
+reactor_simulator.cpp/cross/_Z6r8_maxdd/425/181	0	0	0	1	52	11	23	8	2	1	452205
+input:	x	1	52	11	0	1
+input:	y	1	52	11	0	2
+output:	return_value	1	52	11	0	2
+reactor_simulator.cpp/absorb/_Z13r8_uniform_01Ri/362/45	0	0	0	1	52	11	23	8	0	1	391207
+output:	return_value	1	52	11	0	1
+reactor_simulator.cpp/energy/sqrt/556/195	1	0	0	1	52	11	23	8	1	1	100000
+input:	parameter_1	1	52	11	2	3
+output:	return_value	1	52	11	1	2
+reactor_simulator.cpp/main/_Z6dist2cdRi/238/250	0	0	0	1	52	11	23	8	1	1	452205
+input:	e	1	52	11	0	3
+output:	return_value	1	52	11	0	157
+reactor_simulator.cpp/scatter/_Z13r8_uniform_01Ri/952/53	0	0	0	1	52	11	23	8	0	1	352205
+output:	return_value	1	52	11	0	1
+reactor_simulator.cpp/cross/exp/423/178	1	0	0	1	52	11	23	8	1	1	452205
+input:	parameter_1	1	52	11	0	3
+output:	return_value	1	52	11	1	13
+reactor_simulator.cpp/cross/sin/422/177	1	0	0	1	52	11	23	8	1	1	452205
+input:	parameter_1	1	52	11	0	1119
+output:	return_value	1	52	11	-1	1
+reactor_simulator.cpp/main/_Z6absorbRi/266/252	0	0	0	1	52	11	23	8	0	0	391207
+reactor_simulator.cpp/cross/exp/427/182	1	0	0	1	52	11	23	8	1	1	452205
+input:	parameter_1	1	52	11	-5	0
+output:	return_value	1	52	11	0	1
+reactor_simulator.cpp/energy/sqrt/556/196	1	0	0	1	52	11	23	8	1	1	100000
+input:	parameter_1	1	52	11	0	1
+output:	return_value	1	52	11	0	1
+reactor_simulator.cpp/source/_Z13r8_uniform_01Ri/1014/22	0	0	0	1	52	11	23	8	0	1	100000
+output:	return_value	1	52	11	0	1
+reactor_simulator.cpp/dist2c/_Z5crossd/490/30	0	0	0	1	52	11	23	8	1	1	452205
+input:	e	1	52	11	0	3
+output:	return_value	1	52	11	0	10
+reactor_simulator.cpp/scatter/_Z13r8_uniform_01Ri/955/54	0	0	0	1	52	11	23	8	0	1	352205
+output:	return_value	1	52	11	0	1
+reactor_simulator.cpp/update/cos/1123/39	1	0	0	1	52	11	23	8	1	1	452205
+input:	parameter_1	1	52	11	0	7
+output:	return_value	1	52	11	-1	1
+reactor_simulator.cpp/main/_Z7scatterRiRdS0_S0_/279/253	0	0	0	1	52	11	23	8	3	3	352205
+input:	e	3	23	8	-2147483648	-2147483648
+input:	mu	3	23	8	-2147483648	1
+input:	azm	3	23	8	-2147483648	1
+output:	e	3	23	8	-2147483648	-2147483648
+output:	mu	3	23	8	-2147483648	-2147483648
+output:	azm	3	23	8	-2147483648	1
+reactor_simulator.cpp/energy/_Z13r8_uniform_01Ri/554/194	0	0	0	1	52	11	23	8	0	1	100000
+output:	return_value	1	52	11	0	1
+reactor_simulator.cpp/main/_Z6updatedddRdS_S_/242/251	0	0	0	1	52	11	23	8	6	3	452205
+input:	mu	1	52	11	-1	1
+input:	azm	1	52	11	0	7
+input:	d	1	52	11	0	157
+input:	x	3	23	8	-2147483648	609704
+input:	y	3	23	8	-2147483648	1
+input:	z	3	23	8	-2147483648	1
+output:	x	3	23	8	-2147483648	623587840
+output:	y	3	23	8	-2147483648	1
+output:	z	3	23	8	-2147483648	1
+reactor_simulator.cpp/update/sqrt/1120/38	1	0	0	1	52	11	23	8	1	1	452205
+input:	parameter_1	1	52	11	0	1
+output:	return_value	1	52	11	0	1
