@@ -1,4 +1,4 @@
-#Numerical Optimization Targeting Sustainable Scientific Computing
+# Numerical Optimization Targeting Sustainable Scientific Computing
 
 This repo contains the source files for my end-of-studies internship report/master's thesis at Umea University in Division of Computing Science under the supervision of Roman Iakymchuk and co-supervision of Pablo de Oliveira Castro, as part of my M.Sc. in High Performance Computing and Simulation at Paris-Saclay University, UVSQ.
 
