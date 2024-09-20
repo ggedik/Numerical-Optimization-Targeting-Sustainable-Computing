@@ -1,0 +1,6 @@
+this file contains the timings of implementation, the implementation with different number of elements and the insturmentation
+we are excludig scatter and energy in here
+in scatter r8unif is called in double in the rest it is calle din single
+the variables in the main are also changed to float
+
+SO basically i take the last version and transfert it to one version back 
