@@ -2,7 +2,7 @@
 
 This repo contains some of the source files for my end-of-studies internship report/master's thesis at Umea University in Division of Computing Science under the supervision of Roman Iakymchuk and co-supervision of Pablo de Oliveira Castro, as part of my M.Sc. in High Performance Computing and Simulation at Paris-Saclay University, UVSQ.<br>
 The source codes of the benchmarks, along with their mixed precision implementations done in this work are not included in this repository. The details regarding mixed precision implementations are given in the report.<br>
-This repository provides support for computer arithmetic tools. Some scripts may require minor adjustments, such as updating file paths and other configurations.<br>
+This repository provides support for computer arithmetic tools, i.e Verificarlo. Some scripts may require minor adjustments, such as updating file paths and other configurations.<br>
 
 ## Structure
 
