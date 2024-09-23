@@ -1,4 +1,0 @@
-this will insturment prec52 as it is with mca backend
-just to see what is going on
-if changing the last bit has a distructive effect on our applciation
-the cut_off calls the application that had already been built with vfc in lules2_vvfc/build
