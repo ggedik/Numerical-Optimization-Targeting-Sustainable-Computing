@@ -1,21 +1,21 @@
 # Numerical Optimization Targeting Sustainable Scientific Computing
 
-This repo contains some of the source files for my end-of-studies internship report/master's thesis at Umea University in Division of Computing Science under the supervision of Roman Iakymchuk and co-supervision of Pablo de Oliveira Castro, as part of my M.Sc. in High Performance Computing and Simulation at Paris-Saclay University, UVSQ.
-The source codes of the benchmarks, along with their mixed precision implementations done in this work are not included in this repository. The details regarding mixed precision implementations are given in the report. 
-This repository provides support for computer arithmetic tools. Some scripts may require minor adjustments, such as updating file paths and other configurations.
+This repo contains some of the source files for my end-of-studies internship report/master's thesis at Umea University in Division of Computing Science under the supervision of Roman Iakymchuk and co-supervision of Pablo de Oliveira Castro, as part of my M.Sc. in High Performance Computing and Simulation at Paris-Saclay University, UVSQ.<br>
+The source codes of the benchmarks, along with their mixed precision implementations done in this work are not included in this repository. The details regarding mixed precision implementations are given in the report.<br>
+This repository provides support for computer arithmetic tools. Some scripts may require minor adjustments, such as updating file paths and other configurations.<br>
 
 ## Structure
 
-.
-├── energy			: Directory containing scripts related to energy measurements
-│   ├── measure_energy.py	: Script for measuring energy consumption using specific tools
-│   └── process_measurements.py	: Script for processing and analyzing the collected energy measurement data
-├── make_animation.ipynb	: Jupyter Notebook used for creating animations related to Reactor Simulator
-├── presentation_GEDIK.pdf	: Presentation of the project, summarizing the research outcomes
-├── README.md			: Main README file providing
-└── vfc				: Directory containing work related to Verificarlo. Finding minimal precision for code regions, doing MCA analysis. 
-    ├── LULESH			: Folder dedicated to the LULESH application, containing scripts
-    └── REACTOR_SIMULATOR	: Folder dedicated to the Reactor Simulator, containing scripts
+.<br>
+├── energy			: Directory containing scripts related to energy measurements.<br>
+│   ├── measure_energy.py	: Script for measuring energy consumption using specific tools.<br>
+│   └── process_measurements.py	: Script for processing and analyzing the collected energy measurement data.<br>
+├── make_animation.ipynb	: Jupyter Notebook used for creating animations related to Reactor Simulator.<br>
+├── presentation_GEDIK.pdf	: Presentation of the project, summarizing the research outcomes.<br>
+├── README.md			: Main README file.<br>
+└── vfc				: Directory containing work related to Verificarlo. Finding minimal precision for code regions, doing MCA analysis.<br> 
+    ├── LULESH			: Folder dedicated to the LULESH application, containing scripts.<br>
+    └── REACTOR_SIMULATOR	: Folder dedicated to the Reactor Simulator, containing scripts.<br>
 ## Requirements
 In order to be able to replicate the results obtained in this research you must have:
 
@@ -54,7 +54,7 @@ ggedik@cs.umu.se
 
 
 ## Some Notes:
-- $nm is used to get the mangled function names.
+- [nm](https://www.man7.org/linux/man-pages/man1/nm.1.html) is used to get the mangled function names.
 - [Callgrind](https://valgrind.org/docs/manual/cl-manual.html) is used to detect hotspots.
 - Callgrid output then turned to graphs with the help of [graph2dot](https://github.com/jrfonseca/gprof2dot).
 - [Intel Advisor Roofline](https://www.intel.com/content/www/us/en/developer/articles/guide/intel-advisor-roofline.html) is used to generate the data points for Roofline graphs. 
