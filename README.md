@@ -1,7 +1,7 @@
 # Numerical Optimization Targeting Sustainable Scientific Computing
 
 This repo contains some of the source files for my end-of-studies internship report/master's thesis at Umea University in Division of Computing Science under the supervision of Roman Iakymchuk and co-supervision of Pablo de Oliveira Castro, as part of my M.Sc. in High Performance Computing and Simulation at Paris-Saclay University, UVSQ.<br>
-The source codes of the benchmarks, along with their mixed precision implementations done in this work are not included in this repository. The details regarding mixed precision implementations are given in the report.<br>
+The mixed precision implementations of the benchmarks done in this work are included in this repository. Reactor Simulator benchmark is available under [the GNU LPGL licence](https://www.gnu.org/licenses/lgpl-3.0.en.html). LULESH benchmark is available under [BSD licence](https://opensource.org/license/BSD-3-clause). The details regarding mixed precision implementations are given in the report.<br>
 This repository provides support for computer arithmetic tools, i.e Verificarlo. Some scripts may require minor adjustments, such as updating file paths and other configurations.<br>
 
 ## Structure
@@ -13,6 +13,9 @@ This repository provides support for computer arithmetic tools, i.e Verificarlo.
 ├── make_animation.ipynb	: Jupyter Notebook used for creating animations related to Reactor Simulator.<br>
 ├── presentation_GEDIK.pdf	: Presentation of the project, summarizing the research outcomes.<br>
 ├── README.md			: Main README file.<br>
+├── MP-implementations          : Directory containing mixed precision implementations. 
+│   ├── LULESH                  : LULESH inclusion and exclusion approaches mixed precision implementations.
+│   └── REACTOR_SIMULATOR       : Reactor Simulator mixed precision implementation stages. 
 └── vfc				: Directory containing work related to Verificarlo. Finding minimal precision for code regions, doing MCA analysis.<br> 
     ├── LULESH			: Folder dedicated to the LULESH application, containing scripts.<br>
     └── REACTOR_SIMULATOR	: Folder dedicated to the Reactor Simulator, containing scripts.<br>
@@ -55,7 +58,7 @@ ggedik@cs.umu.se
 
 ## Some Notes:
 - [nm](https://www.man7.org/linux/man-pages/man1/nm.1.html) is used to get the mangled function names.
-- [Callgrind](https://valgrind.org/docs/manual/cl-manual.html) is used to detect hotspots.
+- [Callgrind](https://valgrind.org/docs/manual/cl-manual.html) is used to detect performance hotspots.
 - Callgrid output then turned to graphs with the help of [graph2dot](https://github.com/jrfonseca/gprof2dot).
 - [Intel Advisor Roofline](https://www.intel.com/content/www/us/en/developer/articles/guide/intel-advisor-roofline.html) is used to generate the data points for Roofline graphs. 
 - [Rooflini](https://github.com/giopaglia/rooflini) is used to represent the Roofline graphs esthetically. 
