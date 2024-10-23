@@ -8,8 +8,8 @@ This repository provides support for computer arithmetic tools, i.e Verificarlo.
 
 .<br>
 ├── energy			: Directory containing scripts related to energy measurements.<br>
-│   ├── measure_energy.py	: Script for measuring energy consumption using specific tools.<br>
-│   └── process_measurements.py	: Script for processing and analyzing the collected energy measurement data.<br>
+│   ├── laptop_measurements	: Scripts for measuring energy consumption on laptop using specific tools.<br>
+│   └── LUMI_measurements	: Scripts for measuring energy consumption on LUMI with the help of SLURM energy plug-in. <br>
 ├── make_animation.ipynb	: Jupyter Notebook used for creating animations related to Reactor Simulator.<br>
 ├── presentation_GEDIK.pdf	: Presentation of the project, summarizing the research outcomes.<br>
 ├── README.md			: Main README file.<br>
