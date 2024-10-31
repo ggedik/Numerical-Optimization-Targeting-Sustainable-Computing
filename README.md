@@ -13,9 +13,9 @@ This repository provides support for computer arithmetic tools, i.e Verificarlo.
 ├── make_animation.ipynb	: Jupyter Notebook used for creating animations related to Reactor Simulator.<br>
 ├── presentation_GEDIK.pdf	: Presentation of the project, summarizing the research outcomes.<br>
 ├── README.md			: Main README file.<br>
-├── MP-implementations          : Directory containing mixed precision implementations. 
-│   ├── LULESH                  : LULESH inclusion and exclusion approaches mixed precision implementations.
-│   └── REACTOR_SIMULATOR       : Reactor Simulator mixed precision implementation stages. 
+├── MP-implementations          : Directory containing mixed precision implementations. <br>
+│   ├── LULESH                  : LULESH inclusion and exclusion approaches mixed precision implementations.<br>
+│   └── REACTOR_SIMULATOR       : Reactor Simulator mixed precision implementation stages. <br>
 └── vfc				: Directory containing work related to Verificarlo. Finding minimal precision for code regions, doing MCA analysis.<br> 
     ├── LULESH			: Folder dedicated to the LULESH application, containing scripts.<br>
     └── REACTOR_SIMULATOR	: Folder dedicated to the Reactor Simulator, containing scripts.<br>
