@@ -52,7 +52,7 @@ for the LULESH benchmark. These results highlight the importance of adopting ‘
 precision’ to optimize performance and energy use in scientific computing.
 
 ## Contact :
-If you have any questions, or want to let us know about your results please do not hesitate to get in  contact at this mail:
+If you have any questions, or want to let us know about your results please do not hesitate to get in  contact at this mail: gedik.gulcin@gmail.com & 
 ggedik@cs.umu.se
 
 
